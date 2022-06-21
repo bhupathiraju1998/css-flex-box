@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+.dash {
+    background-color: #296eff;
+    border-radius: 5px;
+}
+
+.bg-container {
+    display: flex;
+    height: 100vh;
+}
+
+.dashboard-section {
+    display: flex;
+    flex-direction: column;
+    background-color: #002159;
+    width: 230px;
+    flex-shrink: 0;
+    padding: 10px;
+}
+
+.image {
+    height: 150px;
+    width: 150px;
+    margin-right: 32px;
+    margin-bottom: 32px;
+}
+
+.cars-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.bikes-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.house-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.dashboard-section-one {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.icon-name {
+    display: flex;
+    flex-direction: row;
+}
+
+.icon {
+    color: #ffffff;
+    font-size: 16px;
+    align-self: center;
+    padding-left: 4px;
+}
+
+.dashboard-section-two {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.sarah-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+
+}
+
+.favorite-section {
+    overflow-y: auto;
+    flex-grow: 1;
+}
+
+.dashboard-title {
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 26px;
+    font-weight: 700;
+    padding-left: 16px;
+}
+
+.icon-text {
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: 10px;
+}
+
+.fav-text {
+    color: #002159;
+    font-family: "Open Sans";
+    font-size: 24px;
+}

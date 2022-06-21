@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+.colors {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.bg-container {
+    padding: 15px;
+}
+
+.heading {
+    font-family: "Roboto";
+    font-size: 25px;
+    font-weight: 900;
+    color: #011e3f;
+}
+
+.card {
+    color: #ffffff;
+    background-color: #f87171;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    font-family: "Roboto";
+    font-size: 20px;
+    font-weight: 800;
+    margin: 8px;
+}
+
+.two {
+    background-color: #fb923c;
+}
+
+.three {
+    background-color: #fbbf24;
+}
+
+.four {
+    background-color: #facc15;
+}
+
+.five {
+    background-color: #a3e635;
+}
+
+.six {
+    background-color: #4ade80;
+}
+
+.seven {
+    background-color: #34d399;
+}
+
+.eight {
+    background-color: #22d3ee;
+}
+
+.nine {
+    background-color: #38bdf8;
+}
+
+.ten {
+    background-color: #60a5fa;
+}
+
+.eleven {
+    background-color: #818cf8;
+}
+
+.twelve {
+    background-color: #c084fc;
+}
+
+.thirteen {
+    background-color: #e879f9;
+}
+
+.fourteen {
+    background-color: #f472b6;
+}
+
+.fifteen {
+    background-color: #fb7185;
+}

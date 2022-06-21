@@ -1,0 +1,200 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+.heading {
+    text-align: center;
+    color: #12022f;
+    font-family: "Roboto";
+    font-size: 45px;
+    font-weight: 500;
+}
+
+.para {
+    color: #12022f;
+    font-family: "Roboto";
+    font-size: 45px;
+    font-weight: 900;
+}
+
+.button {
+    color: #ffffff;
+    background-color: transparent;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 3px;
+    padding: 5px;
+    border-color: #ffffff;
+}
+
+.sub-heading {
+    color: #ffffff;
+    font-family: "Roboto";
+    font-size: 35px;
+    font-weight: 800;
+}
+
+.bg-container {
+    background-color: #95b2ff;
+    background-size: cover;
+
+    padding: 15px;
+}
+
+.card-container {
+    background-color: #ffffff;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.market {
+    background-image: url("https://assets.ccbp.in/frontend/intermediate-rwd/popular-blog-marketing-strategies-sm-bg.png");
+    border-radius: 15px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 5px;
+}
+
+.coffee {
+    background-image: url("https://assets.ccbp.in/frontend/intermediate-rwd/popular-blog-coffee-bg.png");
+    border-radius: 15px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 5px;
+}
+
+.fruits {
+    background-image: url("https://assets.ccbp.in/frontend/intermediate-rwd/popular-blog-fruits-bg.png");
+    border-radius: 15px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 5px;
+}
+
+.laptop {
+    background-image: url("https://assets.ccbp.in/frontend/intermediate-rwd/popular-blog-laptop-sm-bg.png");
+    border-radius: 15px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.nature {
+    background-image: url("https://assets.ccbp.in/frontend/intermediate-rwd/popular-blog-nature-bg.png");
+    border-radius: 15px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 5px;
+}
+
+.interior {
+    background-image: url("https://assets.ccbp.in/frontend/intermediate-rwd/popular-blog-interior-bg.png");
+    border-radius: 15px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 5px;
+}
+
+@media (min-width:768px) and (max-width:992px) {
+    .market {
+        background-image: url("https://assets.ccbp.in/frontend/intermediate-rwd/popular-blog-marketing-strategies-lg-bg.png");
+        flex-grow: 1;
+        width: 100%;
+    }
+
+    .total-cards {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .coffee {
+        flex-grow: 1;
+        margin-right: 5px;
+    }
+
+    .fruits {
+        flex-grow: 1;
+    }
+
+    .laptop {
+        background-image: url("https://assets.ccbp.in/frontend/intermediate-rwd/popular-blog-laptop-lg-bg.png");
+        flex-grow: 1;
+        width: 100%;
+    }
+
+    .nature {
+        flex-grow: 1;
+        margin-right: 5px;
+    }
+
+    .interior {
+        flex-grow: 1;
+    }
+
+    .heading {
+        text-align: center;
+    }
+
+    .para {
+        text-align: center;
+    }
+}
+
+@media (min-width:1200px) {
+    .market {
+        background-image: url("https://assets.ccbp.in/frontend/intermediate-rwd/popular-blog-marketing-strategies-lg-bg.png");
+        flex-grow: 1;
+        margin-right: 5px;
+    }
+
+    .total-cards {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .coffee {
+        width: 30%;
+        margin-right: 5px;
+    }
+
+    .fruits {
+        width: 30%;
+    }
+
+    .laptop {
+        flex-grow: 1;
+        order: 1;
+    }
+
+    .nature {
+        width: 30%;
+        margin-right: 5px;
+    }
+
+    .interior {
+        width: 30%;
+        margin-right: 5px;
+    }
+
+    .heading {
+        text-align: left;
+    }
+}
